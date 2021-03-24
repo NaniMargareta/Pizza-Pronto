@@ -1,3 +1,7 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 body {
     margin: 0;
     font-size: 20px;
@@ -104,13 +108,14 @@ footer {
     background-color: rgba(194, 109, 109, 0.5);
 }
 
-p { 
+p {
     line-height: 140%;
 }
 
 main > h1 {
     text-transform: uppercase;
-    margin-top: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img {
@@ -354,6 +359,10 @@ img {
     padding: 5px;
 }
 
+.adrese-contact {
+    margin-bottom: 15px;
+}
+
 .telefoane-contact a {
     color: inherit !important;
 }
@@ -407,7 +416,7 @@ img {
     main {
         width: 100%;
         border-left: unset;
-        padding: 10px 5%;
+        padding: 10px 3%;
     }
     navbar a {
         padding: 20px 10px;
